@@ -1,0 +1,27 @@
+/* FeaturedProducts.css */
+#FProduct {
+    text-align: center;
+  }
+  
+  #FProduct h1 {
+    font-size: 2rem;
+  }
+  
+  @media (max-width: 1024px) {
+    #FProduct h1 {
+      font-size: 1.75rem;
+    }
+  }
+  
+  @media (max-width: 800px) {
+    #FProduct h1 {
+      font-size: 1.5rem;
+    }
+  }
+  
+  @media (max-width: 464px) {
+    #FProduct h1 {
+      font-size: 1.25rem;
+    }
+  }
+  

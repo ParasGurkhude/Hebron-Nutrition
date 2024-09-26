@@ -1,0 +1,35 @@
+/* Ads.css */
+.btn {
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    .btn h1 {
+      font-size: 1.5rem;
+    }
+  
+    .btn button {
+      width: 100%;
+      font-size: 1rem;
+    }
+  
+    .chakra-button {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .btn h1 {
+      font-size: 1.2rem;
+    }
+  
+    .btn button {
+      font-size: 0.8rem;
+    }
+  
+    .chakra-button {
+      font-size: 0.8rem;
+    }
+  }
+  

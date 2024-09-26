@@ -1,0 +1,42 @@
+/* BestSellers.css */
+#cT {
+    text-align: center;
+  }
+  
+  #tablet, #health {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+  }
+  
+  #tablet div, #health div {
+    margin: 10px;
+  }
+  
+  #tablet img, #health img {
+    width: 100%;
+    height: auto;
+  }
+  
+  @media (max-width: 1024px) {
+    #tablet div, #health div {
+      width: 45%;
+    }
+  }
+  
+  @media (max-width: 800px) {
+    #tablet div, #health div {
+      width: 100%;
+    }
+  
+    #cT h1 {
+      font-size: 1.5rem;
+    }
+  }
+  
+  @media (max-width: 464px) {
+    #cT h1 {
+      font-size: 1.25rem;
+    }
+  }
+  
